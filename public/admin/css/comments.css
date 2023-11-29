@@ -1,0 +1,12 @@
+.accordion-button-replays:not(.collapsed) {
+    color: #000;
+    background-color: transparent !important;
+     box-shadow: none !important;
+}
+
+.accordion-button-replays::after {
+    display: none;
+}
+.active-lesson {
+    background-color: #eeeeee;
+}

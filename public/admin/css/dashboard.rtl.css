@@ -1,0 +1,143 @@
+body {
+    background-color: #fff !important;
+}
+.app-sidebar {
+    background: var(--gray-light-color);
+}
+.app-sidebar  .menu-title {
+    color: #000;
+}
+.border-black {
+    border: 1px solid #000;
+}
+.active-item-sidebar {
+    background-color: var(--black-color);
+}
+.active-item-sidebar .menu-title {
+    color: #fff !important;
+}
+.active-sidebar .menu-title-active {
+    font-weight: 900 !important;
+    font-size: 18px;
+    color: #000;
+}
+.add-date-box {
+    height: 400px;
+    overflow-y: scroll;
+}
+.recent-discuss {
+    height: 300px;
+    overflow-y: scroll;
+}
+.table:not(.table-bordered) tr:first-child, .table:not(.table-bordered) th:first-child, .table:not(.table-bordered) td:first-child {
+    padding-right: 13px;
+}
+.table-header-color {
+    background-color: #fcfcfc;
+    color: #000 !important;
+}
+.card {
+    border-radius: 0 !important;
+}
+
+@media (min-width:567px) {
+    .pop-up-meddile {
+        width: 70% !important;
+    }
+}
+@media (min-width:772px) {
+    .pop-up-meddile {
+        width: 50% !important;
+    }
+}
+@media (min-width:992px) {
+    .pop-up-meddile {
+        width: 500px !important;
+    }
+}
+.discuss-sidebar-content ,
+.discuss-sidebar-container {
+    left: 0;
+    transition: all .3s ease-in-out;
+}
+.form-select-lg {
+    padding-right: 4.5rem;
+}
+.navbar-user:hover {
+    background-color: #f9f9f9;
+}
+.discuss-comment:hover {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+.search-btn:hover,
+.search-active {
+    background-color: var(--black-color);
+    color: #fff;
+}
+.accordion-button:not(.collapsed) {
+    color: var(--black-color);
+}
+
+.solid-black-btn {
+    transition: all .3s ease-in-out;
+    background-color: var(--black-color) !important;
+    color: #fff !important;
+}
+.regular-black-btn {
+    transition: all .3s ease-in-out;
+    color: var(--black-color) !important;
+    background-color: #EEE !important;
+    border-radius: 5px;
+}
+btn-check:checked + .btn.btn-active-color-primary, .btn-check:active + .btn.btn-active-color-primary, .btn.btn-active-color-primary:focus:not(.btn-active), .btn.btn-active-color-primary:hover:not(.btn-active), .btn.btn-active-color-primary:active:not(.btn-active), .btn.btn-active-color-primary.active, .btn.btn-active-color-primary.show, .show > .btn.btn-active-color-primary {
+    color: var(--black-color);
+}
+.menu-title {
+    font-size: 1.3rem !important;
+}
+.replays-chevron {
+    transition: all .1 ease-in-out;
+}
+.rotate-chevron {
+    transform: rotate(180deg);
+}
+.active-added {
+    background-color: var(--black-color) !important;
+}
+.active-added i {
+    color: #fff !important;
+}
+
+.choosen-Book {
+    background-color: var(--black-color);
+    color: #fff !important;
+}
+.choosen-Book h4 {
+    color: #fff !important;
+}
+.choosen-Book .border-black {
+    border: 1px solid #fff !important;
+}
+input[type='radio'] {
+    accent-color: #232323;
+}
+.active-pagination {
+    background: var(--black-color) !important;
+    color: #FFF !important;
+}
+thead {
+    font-weight: bolder !important;
+    font-size: 19px;
+}
+tbody {
+    font-size: 18px !important;
+}
+
+.image-input {
+    background-image: url('../media/teacher\ dashboard/photoCover.webp');
+}
+
+[data-bs-theme="dark"] .image-input{
+    background-image: url('../media/teacher\ dashboard/photoCover.webp');
+}
